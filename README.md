@@ -1,5 +1,17 @@
 # 指纹识别
 
+### Demo展示
+
+[下载 APK-Demo](apk/app-debug.apk)
+
+开始指纹验证
+
+ ![1.jpg](https://github.com/leiyun1993/Fingerprint/raw/master/screenshot/1.jpg)
+
+指纹验证成功
+
+ ![2.jpg](https://github.com/leiyun1993/Fingerprint/raw/master/screenshot/2.jpg)
+
 ### 申请权限
 使用指纹识别需要使用到**android.permission.USE_FINGERPRINT**,这是一个PROTECTION_NORMAL类权限，所以只需要在Manifest.xml中注册即可
 ```xml
@@ -112,11 +124,4 @@ override fun onDismiss(dialog: DialogInterface?) {
     FingerprintHelper.cancel()
 }
 ```
-### Demo展示
-开始指纹验证
 
- ![1.jpg](https://github.com/leiyun1993/Fingerprint/raw/master/screenshot/1.jpg)
-
-指纹验证成功
-
- ![2.jpg](https://github.com/leiyun1993/Fingerprint/raw/master/screenshot/2.jpg)
