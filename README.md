@@ -114,6 +114,7 @@ override fun onDismiss(dialog: DialogInterface?) {
 ```
 ### Demo展示
 开始指纹验证
+
  ![1.jpg](https://github.com/leiyun1993/Fingerprint/raw/master/screenshot/1.jpg)
 
 指纹验证成功
